@@ -26,7 +26,6 @@ El código proporcionado implementa la funcionalidad principal del proyecto MIDI
 - **Selección de Botones**: Selecciona todos los elementos HTML con la clase .tecla, que representan los botones del MIDI.
 - **Evento Click**: Para cada botón seleccionado, se agrega un evento de clic. Cuando se hace clic en un botón, se obtiene el atributo data-sound que contiene el identificador del sonido asociado al botón. Luego, se localiza el elemento de audio correspondiente utilizando este identificador y se reproduce el sonido.
 - **Eventos de Teclado**: Además del clic, se agregan eventos de teclado para cada botón. Cuando se presiona la tecla "Enter" o "Space", se agrega la clase activa al botón, lo que proporciona un efecto visual para indicar que el botón está presionado. Cuando se suelta la tecla "Enter" o "Space", se elimina la clase activa, restaurando el estado visual del botón.
-- **Console Log**: Se imprime en la consola del navegador si se presiona "Enter" o "Space".
 
 Esta lógica permite al usuario interactuar con los botones tanto haciendo clic en ellos como presionando las teclas "Enter" o "Space" en el teclado. Cada interacción produce un sonido asociado al botón correspondiente.
 
