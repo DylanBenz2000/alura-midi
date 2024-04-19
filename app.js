@@ -16,10 +16,8 @@ buttons.forEach(button =>{
     button.addEventListener('keydown', function(e){
         if(e.code === 'Enter' || e.code === 'Space'){
             button.classList.add('activa');
-            // setTimeout(function(){
-            //     button.classList.remove('activa')
-            // }, 100)
         }
+        console.log(e.code === 'Enter' || e.code === 'Space')
     })
 
     button.addEventListener('keyup', function(e){
